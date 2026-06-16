@@ -12,7 +12,7 @@ public class DeleteMethod {
 		Response response=RestAssured
 				.given()
 				.when()
-				.delete("http://localhost:3000/trainees/7TKbCdaXZGE");
+				.delete("http://localhost:3000/trainees/vAhONHFdlZg");
 		System.out.println("Data Deleted Successfully:"+response.getStatusCode());
 		response.prettyPrint();
 		Assert.assertEquals(response.getStatusCode(),200);
